@@ -14,7 +14,7 @@ keyvault_rg = "hari-aks-rg"
 
 keyvault_name = "hari-aks-kv"
 
-azure_region = "east us"
+azure_region = "aksdemocluster-rg"
 
 resource_group = "aksdemocluster-rg"
 
