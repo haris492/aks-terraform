@@ -18,6 +18,11 @@ steps:
     command: 'plan'
     environmentServiceName: 'Visual Studio Enterprise(79b5e215-479a-429e-b57c-2444aa599e5b)'
     allowTelemetryCollection: false
+- task: TerraformCLI@2
+  inputs:
+    command: 'apply'
+    environmentServiceName: 'Visual Studio Enterprise(79b5e215-479a-429e-b57c-2444aa599e5b)'
+    allowTelemetryCollection: true
 
 
 
