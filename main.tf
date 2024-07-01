@@ -4,16 +4,16 @@ data "azurerm_key_vault" "azure_vault" {
 }
 
 data "azurerm_key_vault_secret" "ssh_public_key" {
-  name         = var.sshkvsecret
+  name         = var.sshpublickey
   key_vault_id = data.azurerm_key_vault.azure_vault.id
 }
 
 data "azurerm_key_vault_secret" "spn_id" {
-  name         = var.clientidkvsecret
+  name         = var.spnclientid
   key_vault_id = data.azurerm_key_vault.azure_vault.id
 }
 data "azurerm_key_vault_secret" "spn_secret" {
-  name         = var.spnkvsecret
+  name         = var.spnclientsecret
   key_vault_id = data.azurerm_key_vault.azure_vault.id
 }
 
