@@ -10,9 +10,9 @@ vnetcidr = ["10.0.0.0/24"]
 
 subnetcidr = ["10.0.0.0/25"]
 
-keyvault_rg = "aksdemo-rg"
+keyvault_rg = "hari-aks-rg"
 
-keyvault_name = "aksdemocluster-kv"
+keyvault_name = "hari-aks-kv"
 
 azure_region = "east us"
 
