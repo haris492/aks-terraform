@@ -14,7 +14,7 @@ keyvault_rg = "hari-aks-rg"
 
 keyvault_name = "hari-aks-kv"
 
-azure_region = "aksdemocluster-rg"
+azure_region = "eastus"
 
 resource_group = "aksdemocluster-rg"
 
@@ -24,7 +24,7 @@ dns_name = "aksdemocluster"
 
 admin_username = "aksuser"
 
-kubernetes_version = "1.29.2"
+kubernetes_version = "1.27.13"
 
 agent_pools = {
       name            = "pool1"
